@@ -1,0 +1,22 @@
+.square {
+  width: 198px;
+  height: 198px;
+  margin: 1px;
+  background-color: rgba(255, 255, 255, 0.2);
+  border-radius: 8px;
+}
+
+.red {
+  background-color: red;
+}
+
+.blue {
+  background-color: blue;
+}
+
+@media (max-width: 620px) {
+  .square {
+    width: 98px;
+    height: 98px;
+  }
+}

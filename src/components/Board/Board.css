@@ -1,0 +1,22 @@
+.board {
+  display: flex;
+  width: 600px;
+  height: 600px;
+  background-color: black;
+  flex-wrap: wrap;
+}
+
+.red-won {
+  background-color: rgba(255, 0, 0, 0.5);
+}
+
+.blue-won {
+  background-color: rgba(0, 0, 255, 0.5);
+}
+
+@media (max-width: 620px) {
+  .board {
+    width: 300px;
+    height: 300px;
+  }
+}
